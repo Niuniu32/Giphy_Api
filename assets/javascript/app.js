@@ -39,7 +39,7 @@ $(document).ready(function () {
     button_generator(animal);
     $(".animal-class").click(function (e) {
         console.log("click")
-        $("GIF").empty();
+        $("#GIF").empty();
         var data = $(this).attr("data-type");
         console.log(data);
         apicall(data);
